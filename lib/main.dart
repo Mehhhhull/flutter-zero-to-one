@@ -22,6 +22,8 @@ class MyApp extends StatelessWidget {
 //  *
 //  /
 //  %
+//++
+//--
 
 //COMPARISON OPERATOR
 //==
@@ -54,9 +56,32 @@ else if(){
 else{
 
 }
+
+switch case(condition){
+case "A":
+//code
+break;
+.
+.
+
+}
+
 */
 
+/*
+FOR LOOP
+in a for loop, u hv to specify the number of time to loop, if u dont know how many times the loop u cn use the while loop
+for (i=0;i<=5;i++)
+break->break oof the loop
+continue->skip the current iteration
 
+int countDown=5
+white (countDown>0){
+//code
+}
+
+------------------------------------------------------------------------------------
+*/
 
   @override
   Widget build(BuildContext context) {
