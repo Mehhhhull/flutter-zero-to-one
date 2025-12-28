@@ -7,6 +7,8 @@ void main() {
 class MyApp extends StatelessWidget {
    MyApp({super.key});
 
+   //PROGRAMMING FUNDAMENTALS
+
  //VARIABLES: You can store different tpes of information into a variable.
  String name="Mehul"
  int age=21;
@@ -30,6 +32,29 @@ class MyApp extends StatelessWidget {
 // &&-> both needs to be true
 //||
 //!->NOT Operator
+
+/*
+CONTROL FLOW
+
+if(condition){
+do something
+}
+
+if(){
+
+} else{
+}
+
+if(){
+
+}
+else if(){
+
+}
+else{
+
+}
+*/
 
 
 
