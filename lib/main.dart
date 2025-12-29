@@ -1,41 +1,41 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp( MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-   MyApp({super.key});
+  MyApp({super.key});
 
-   //PROGRAMMING FUNDAMENTALS
+  //PROGRAMMING FUNDAMENTALS
 
- //VARIABLES: You can store different tpes of information into a variable.
- String name="Mehul"
- int age=21;
- double pi=3.14159;
- bool isBegginer=true;
+  //VARIABLES: You can store different tpes of information into a variable.
+  String name = "Mehul";
+  int age = 21;
+  double pi = 3.14159;
+  bool isBegginer = true;
 
-//  BASIC MATH OPERATORS
+  //  BASIC MATH OPERATORS
 
-//  +
-//  -
-//  *
-//  /
-//  %
-//++
-//--
+  //  +
+  //  -
+  //  *
+  //  /
+  //  %
+  //++
+  //--
 
-//COMPARISON OPERATOR
-//==
-//!=
-//> < >= <=
+  //COMPARISON OPERATOR
+  //==
+  //!=
+  //> < >= <=
 
-//LOGICAL OPERATORS:
-// &&-> both needs to be true
-//||
-//!->NOT Operator
+  //LOGICAL OPERATORS:
+  // &&-> both needs to be true
+  //||
+  //!->NOT Operator
 
-/*
+  /*
 CONTROL FLOW
 
 if(condition){
@@ -68,7 +68,7 @@ break;
 
 */
 
-/*
+  /*
 FOR LOOP
 in a for loop, u hv to specify the number of time to loop, if u dont know how many times the loop u cn use the while loop
 for (i=0;i<=5;i++)
@@ -76,11 +76,13 @@ break->break oof the loop
 continue->skip the current iteration
 
 int countDown=5
-white (countDown>0){
+while (countDown>0){
 //code
 }
 
 ------------------------------------------------------------------------------------
+
+
 */
 
   @override
