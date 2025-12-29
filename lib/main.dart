@@ -109,6 +109,23 @@ return sum;
 int mySum=add(3,6)
 */
 
+  /*
+D A T A    S T R U C T U R E S
+------------------------------------------------------------------------------------------------
+
+L I S T
+List<int>/<String> numbers=[1,2,3]
+//numbers[0]->1
+//numbers[1]->2
+//numbers[2]->3
+
+void printNumbers(){
+ for(int i=0;i<numbers.length;i++)
+ print(numbers[i])
+}
+printNumbers()
+*/
+
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
