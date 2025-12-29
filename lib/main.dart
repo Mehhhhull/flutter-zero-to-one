@@ -36,6 +36,7 @@ class MyApp extends StatelessWidget {
   //!->NOT Operator
 
   /*
+  -----------------------------------------------------
 CONTROL FLOW
 
 if(condition){
@@ -56,6 +57,7 @@ else if(){
 else{
 
 }
+--------------------------------------------------
 
 switch case(condition){
 case "A":
@@ -69,6 +71,7 @@ break;
 */
 
   /*
+  -------------------------------------------------------
 FOR LOOP
 in a for loop, u hv to specify the number of time to loop, if u dont know how many times the loop u cn use the while loop
 for (i=0;i<=5;i++)
@@ -81,8 +84,29 @@ while (countDown>0){
 }
 
 ------------------------------------------------------------------------------------
+FUNCTIONS/METHODS
+Block of code that can be used agai nand again.
+"void" means the func returns nothing.
 
+greet function:
+void greet(){
+print("Hello")
+}
+greet()
 
+//function with parameters
+void greet(String name){
+print("Hello"+name)
+}
+greet("Steve")
+
+//functions with return value
+int add(int a,int b){
+int sum=a+b;
+return sum;
+}
+
+int mySum=add(3,6)
 */
 
   @override
