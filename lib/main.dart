@@ -127,6 +127,7 @@ printNumbers()
 
 --------------------------------
 S E T:unodered collection of unique elemets, and have no dublicatees
+Set<String> uniquenames={"A","B"}
 */
 
   @override
