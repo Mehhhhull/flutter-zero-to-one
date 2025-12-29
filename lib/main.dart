@@ -113,7 +113,7 @@ int mySum=add(3,6)
 D A T A    S T R U C T U R E S
 ------------------------------------------------------------------------------------------------
 
-L I S T
+L I S T:ordered collection of elkements can have dublicates
 List<int>/<String> numbers=[1,2,3]
 //numbers[0]->1
 //numbers[1]->2
@@ -124,6 +124,9 @@ void printNumbers(){
  print(numbers[i])
 }
 printNumbers()
+
+--------------------------------
+S E T:unodered collection of unique elemets, and have no dublicatees
 */
 
   @override
