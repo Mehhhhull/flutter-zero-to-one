@@ -21,14 +21,8 @@ there are two types of widget:
 
 Stateless widget cant be changed any time, stateful widget can be changeds!
 
-*/
-
-class NewApp extends StatelessWidget {
-  const NewApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+Text Widget:
+return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.red,
@@ -41,10 +35,50 @@ class NewApp extends StatelessWidget {
           leading:CircleAvatar(child:Text("M")),
         ),
         body:Center(child: Text(
-          "MKS"
+          "MKS",
+          style:TextStyle(
+          color:Colors.red,
+          fontSize:50,
+          fontWeight: FontWeight.bold,
           
-          ),),
-      )
-      );
+
+          ),
+..........................................................
+          Container:
+          body:Column(
+          children:[
+            Text("M"),
+            CircleAvatar(child: Text("M")),
+            Container(
+              width:300,
+              height:300,
+              color:Colors.pink,
+            )
+          ]
+*/
+
+class NewApp extends StatelessWidget {
+  const NewApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.red,
+          centerTitle: true,
+          title: Text("hELLO"),
+          actions: [Icon(Icons.home), Icon(Icons.search)],
+          leading: CircleAvatar(child: Text("M")),
+        ),
+        body: Column(
+          children: [
+            Text("M"),
+            CircleAvatar(child: Text("M")),
+            Container(width: 300, height: 300, color: Colors.pink),
+          ],
+        ),
+      ),
+    );
   }
 }
