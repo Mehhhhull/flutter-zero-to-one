@@ -44,7 +44,7 @@ return MaterialApp(
 
           ),
 ..........................................................
-          Container:
+          Row and Column:
           body:Column(
           children:[
             Text("M"),
@@ -55,6 +55,23 @@ return MaterialApp(
               color:Colors.pink,
             )
           ]
+        .................................
+        Container:
+        Container(
+              margin:EdgeInsets.all(20),
+              padding:EdgeInsets.all(20),
+              width: 300,
+              height: 300,
+              
+              decoration:BoxDecoration(
+              color: Colors.pink,
+              borderRadius:BorderRadius.circular(20.0),
+              ),
+              child:Text("M", style: TextStyle(fontSize: 20)),
+              
+              ),
+              
+          ],
 */
 
 class NewApp extends StatelessWidget {
@@ -75,7 +92,20 @@ class NewApp extends StatelessWidget {
           children: [
             Text("M"),
             CircleAvatar(child: Text("M")),
-            Container(width: 300, height: 300, color: Colors.pink),
+            Container(
+              margin:EdgeInsets.all(20),
+              padding:EdgeInsets.all(20),
+              width: 300,
+              height: 300,
+              
+              decoration:BoxDecoration(
+              color: Colors.pink,
+              borderRadius:BorderRadius.circular(20.0),
+              ),
+              child:Text("M", style: TextStyle(fontSize: 20)),
+              
+              ),
+              
           ],
         ),
       ),
