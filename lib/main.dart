@@ -72,6 +72,12 @@ return MaterialApp(
               ),
               
           ],
+          ---------------------------------------
+          to add image access go to yaml and to assets put image/(to add all images),when u change anything in yaml file then off the main server then start again.
+          to put the image:
+          Image.asset("image/...") and image aajayega
+          put this in container and then give properties to that container and all set and image as child.
+          to make the circular put link in ClipRrect
 */
 
 class NewApp extends StatelessWidget {
