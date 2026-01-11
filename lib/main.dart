@@ -111,6 +111,12 @@ class NewApp extends StatelessWidget {
               child:Text("M", style: TextStyle(fontSize: 20)),
               
               ),
+                onPressed:() {
+                    print("I clicked the btn")
+                },
+              ElevatedButton(onPressed:(){},child:Text("Btn")),
+              TextButton(onPressed: (){}, child: Text("Btn")),
+              IconButton(onPressed: (){}, icon: Icon(Icons.home))
               
           ],
         ),
