@@ -7,10 +7,13 @@ class HomePAGE extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:Row(
+      body:Column(
         mainAxisAlignment:MainAxisAlignment.spaceEvenly ,
         crossAxisAlignment:CrossAxisAlignment.center,
         children:[
+          Row(
+            children: [],
+          ),
           Text('A',style: TextStyle(fontSize: 25),),
           Text('A',style: TextStyle(fontSize: 25),),
           Text('A',style: TextStyle(fontSize: 25),),
