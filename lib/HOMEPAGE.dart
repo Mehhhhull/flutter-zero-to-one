@@ -3,8 +3,25 @@ import 'package:flutter/material.dart';
 class HomePAGE extends StatelessWidget {
   const HomePAGE({super.key});
 
+//rows and columns
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body:Row(
+        mainAxisAlignment:MainAxisAlignment.spaceEvenly ,
+        crossAxisAlignment:CrossAxisAlignment.center,
+        children:[
+          Text('A',style: TextStyle(fontSize: 25),),
+          Text('A',style: TextStyle(fontSize: 25),),
+          Text('A',style: TextStyle(fontSize: 25),),
+          Text('A',style: TextStyle(fontSize: 25),),
+          Text('A',style: TextStyle(fontSize: 25),),
+
+          ElevatedButton(onPressed: (){
+            
+          }, child: Text("Click Me"))
+        ]
+      )
+    );
   }
 }
