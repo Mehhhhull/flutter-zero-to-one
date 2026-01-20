@@ -14,6 +14,8 @@ class HomePAGE extends StatelessWidget {
         return Text(arrNames[index],style: TextStyle(fontSize: 21,fontWeight: FontWeight.w500),),
       },
       itemCount: arrNames.length,
+      itemExtent:100,
+      scrollDirection:Axis.horizontal,
       )
     );
   }
@@ -56,3 +58,6 @@ class HomePAGE extends StatelessWidget {
 
 //         ]
 //       )
+
+List View Builder
+
