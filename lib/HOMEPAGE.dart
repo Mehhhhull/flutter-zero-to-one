@@ -6,8 +6,15 @@ class HomePAGE extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    var arrNames=["Ramn","Ramanujan","Shubham","Rahim","MKS"]
+
     return Scaffold(
-      body:
+      body:ListView.builder(itemBuilder: (context,index){
+        return Text(arrNames[index],style: TextStyle(fontSize: 21,fontWeight: FontWeight.w500),),
+      },
+      itemCount: arrNames.length,
+      )
     );
   }
 }
