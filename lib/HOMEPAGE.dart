@@ -58,6 +58,21 @@ class HomePAGE extends StatelessWidget {
 
 //         ]
 //       )
+// -------------------------------------------------------
 
-List View Builder
+// List View Builder
+
+// var arrNames=["Ramn","Ramanujan","Shubham","Rahim","MKS"]
+
+//     return Scaffold(
+//       body:ListView.builder(itemBuilder: (context,index){
+//         return Text(arrNames[index],style: TextStyle(fontSize: 21,fontWeight: FontWeight.w500),),
+//       },
+//       itemCount: arrNames.length,
+//       itemExtent:100,
+//       scrollDirection:Axis.horizontal,
+//       )
+//     );
+//   }
+// }
 
