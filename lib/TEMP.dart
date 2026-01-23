@@ -3,32 +3,20 @@ import 'package:flutter/material.dart';
 class HomePAGE extends StatelessWidget {
   const HomePAGE({super.key});
 
+
   @override
   Widget build(BuildContext context) {
-    var arrColors = [
-      Colors.amber,
-      Colors.blue,
-      Colors.green,
-      Colors.pink,
-      Colors.purple,
-    ];
+
+    var arrNames=["Ramn","Ramanujan","Shubham","Rahim","MKS"]
 
     return Scaffold(
-      body: GridView.count(
-        crossAxisCount: 2,
-        crossAxisSpacing: 11,
-        mainAxisSpacing: 11,
-        children: [
-          Container(color: arrColors[0]),
-          Container(color: arrColors[1]),
-          Container(color: arrColors[1]),
-          Container(color: arrColors[1]),
-          Container(color: arrColors[1]),
-          Container(color: arrColors[1]),
-          Container(color: arrColors[1]),
-          Container(color: arrColors[1]),
-        ],
-      ),
+      body:ListView.builder(itemBuilder: (context,index){
+        return Text(arrNames[index],style: TextStyle(fontSize: 21,fontWeight: FontWeight.w500),),
+      },
+      itemCount: arrNames.length,
+      itemExtent:100,
+      scrollDirection:Axis.horizontal,
+      )
     );
   }
 }
@@ -88,52 +76,5 @@ class HomePAGE extends StatelessWidget {
 //   }
 // }
 
-// ------------------------------
-// L I S T   V I E W  S E P A R A T E D
-// It is used when you need a get anything between the list , any widget or anything
-//  var arrNames=["Ramn","Ramanujan","Shubham","Rahim","MKS"]
-
-//     return Scaffold(
-//       body:ListView.separated(itemBuilder: (context,index){
-//         return Text(arrNames[index],style: TextStyle(fontSize: 21,fontWeight: FontWeight.w500),),
-//       },
-//       itemCount: arrNames.length,
-//         separatorBuilder:(context,index){
-//           return Divider(height:100,thickness:4);
-//       },
-//       )
-
-
-
-// G R I D     V I  E W
-//1)Grid View Count
-
-// Widget build(BuildContext context) {
-//     var arrColors = [
-//       Colors.amber,
-//       Colors.blue,
-//       Colors.green,
-//       Colors.pink,
-//       Colors.purple,
-//     ];
-
-//     return Scaffold(
-//       body: GridView.count(
-//         crossAxisCount: 2,
-//         crossAxisSpacing: 11,
-//         mainAxisSpacing: 11,
-//         children: [
-//           Container(color: arrColors[0]),
-//           Container(color: arrColors[1]),
-//           Container(color: arrColors[1]),
-//           Container(color: arrColors[1]),
-//           Container(color: arrColors[1]),
-//           Container(color: arrColors[1]),
-//           Container(color: arrColors[1]),
-//           Container(color: arrColors[1]),
-//         ],
-//       ),
-//     );
-//   }
-// }
+------------------------------
 
